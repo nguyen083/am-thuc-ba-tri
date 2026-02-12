@@ -1,0 +1,365 @@
+/* ===========================
+   ẨM THỰC BA TRI - STYLESHEET
+   =========================== */
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFE4E8; /* Light pink background */
+    color: #8B4513; /* SaddleBrown - không dùng màu đen */
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===========================
+   HEADER
+   =========================== */
+header {
+    background: linear-gradient(135deg, #FFB6C1 0%, #FFC0CB 100%);
+    padding: 30px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    text-align: center;
+}
+
+header h1 {
+    color: #C71585; /* MediumVioletRed */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header p {
+    color: #CD5C5C; /* IndianRed */
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* ===========================
+   NAVIGATION
+   =========================== */
+nav {
+    background-color: #FFB6C1; /* LightPink */
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav li {
+    margin: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B0000; /* DarkRed */
+    padding: 10px 20px;
+    display: block;
+    border-radius: 25px;
+    background-color: #FFF0F5; /* LavenderBlush */
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: #FF69B4; /* HotPink */
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a.active {
+    background-color: #FF1493; /* DeepPink */
+    color: #FFFFFF;
+}
+
+/* ===========================
+   MAIN CONTENT
+   =========================== */
+main {
+    min-height: 60vh;
+    padding: 40px 0;
+}
+
+.content-section {
+    background-color: #FFF0F5; /* LavenderBlush */
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    color: #C71585; /* MediumVioletRed */
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #FFB6C1;
+    padding-bottom: 10px;
+}
+
+.content-section h3 {
+    color: #CD5C5C; /* IndianRed */
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.content-section p {
+    color: #8B4513; /* SaddleBrown */
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Images */
+.content-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Videos */
+.content-section video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===========================
+   FOOD ITEMS GRID
+   =========================== */
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.food-item {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.food-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.food-item h3 {
+    color: #C71585;
+    margin-top: 0;
+}
+
+.food-item p {
+    color: #8B4513;
+}
+
+.food-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.food-item video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* ===========================
+   TEAM MEMBERS
+   =========================== */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.member-card {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.member-card h3 {
+    color: #C71585;
+    margin-bottom: 10px;
+}
+
+.member-card .role {
+    color: #FF69B4;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.member-card ul {
+    list-style: none;
+    text-align: left;
+    color: #8B4513;
+}
+
+.member-card li {
+    margin: 8px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.member-card li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #FF69B4;
+    font-weight: bold;
+}
+
+/* ===========================
+   CONTACT SECTION
+   =========================== */
+.contact-info {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.contact-info h3 {
+    color: #C71585;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    color: #8B4513;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #FF1493;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+footer {
+    background: linear-gradient(135deg, #FFB6C1 0%, #FFC0CB 100%);
+    color: #8B0000; /* DarkRed */
+    padding: 30px 0;
+    margin-top: 50px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #8B4513;
+}
+
+footer a {
+    color: #C71585;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FF1493;
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content-section {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+
+    .content-section h2 {
+        font-size: 1.5em;
+    }
+}
