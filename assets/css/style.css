@@ -162,6 +162,7 @@ section:nth-child(even) {
     /* SaddleBrown */
     margin-bottom: 15px;
     text-align: justify;
+    font-size: 18px;
 }
 
 /* Images */
@@ -255,6 +256,7 @@ section:nth-child(even) {
     line-height: 1.8;
     margin-bottom: 15px;
     text-align: justify;
+    font-size: 18px;
 }
 
 /* ===========================
@@ -287,6 +289,7 @@ section:nth-child(even) {
 
 .food-item p {
     color: #8B4513;
+    font-size: 18px;
 }
 
 .food-item img {
@@ -383,7 +386,7 @@ section:nth-child(even) {
 .contact-info p {
     color: #8B4513;
     margin: 10px 0;
-    font-size: 1.1em;
+    font-size: 18px;
 }
 
 .contact-info a {

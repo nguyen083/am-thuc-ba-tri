@@ -14,6 +14,8 @@ Món ăn đặc trưng
 
 Đặc sản biển
 
+Du lịch
+
 Liên hệ
 
 3\. Phần nội dung chính (Main Content)
@@ -80,6 +82,25 @@ d) Đặc sản biển
 \- Cá khô một nắng – Cá tươi phơi đúng một nắng, giữ được độ mềm và vị đậm đà
 ![](..\assets\images\ca-kho.jpg)
 
+e ) Du lịch Ngoài ẩm thực phong phú, Ba Tri còn là điểm đến hấp dẫn với nhiều địa danh nổi tiếng:
+
+Khu lưu niệm Nguyễn Đình Chiểu – Nơi tưởng niệm nhà thơ yêu nước Nguyễn Đình Chiểu, thể hiện truyền thống hiếu học và tinh thần yêu nước của người dân địa phương.
+
+![](..\assets\images\mo-cu-do-chieu.jpg)
+
+Cồn Hố – Điểm du lịch sinh thái nổi bật với không gian xanh mát, thích hợp dã ngoại và khám phá thiên nhiên.
+
+![](..\assets\images\con-ho.jpg)
+
+Đình Phú Lễ – Ngôi đình cổ kính nổi tiếng của Ba Tri, mang đậm nét kiến trúc truyền thống Nam Bộ và là nơi diễn ra nhiều lễ hội văn hóa đặc sắc của địa phương.
+
+![](..\assets\images\dinh-phu-le.jpg)
+
+Làng nghề làm bánh phồng Sơn Đốc – Nơi du khách có thể tìm hiểu quy trình làm bánh phồng truyền thống và thưởng thức đặc sản địa phương.
+
+![](..\assets\images\banh-phong-son-doc.jpg.jpg)
+
+link: ..\assets\videos\nghe-lam-banh-phong.mp4 (link video về bánh phồng Sơn Đốc ) 
 
 PHẦN LIÊN HỆ (Contact) Nếu bạn muốn tìm hiểu thêm về ẩm thực Ba Tri hoặc đóng góp ý kiến cho trang web, vui lòng liên hệ với nhóm thực hiện theo thông tin sau:
 
