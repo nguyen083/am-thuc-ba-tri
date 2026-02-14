@@ -122,6 +122,8 @@ Nhóm tác giả: Nhóm 3 – Lớp 12A1.
 
 Email: [nhomtacgia312A1@gmail.com](mailto:nhomtacgia312A1@gmail.com)
 
+Ngày cập nhật: 24/01/2206 
+
 Bài tập thực hành môn Tin học: Thiết kế trang web
 
 Nguồn tham khảo: Cổng thông tin tỉnh Bến Tre, Báo Bến Tre Online và tài liệu sưu tầm.
